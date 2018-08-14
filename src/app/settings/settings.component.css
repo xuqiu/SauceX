@@ -1,0 +1,22 @@
+.list-item__thumbnail {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.icon-grid{
+  list-style:none; /* 去掉ul前面的符号 */
+  margin: 0; /* 与外界元素的距离为0 */
+  padding: 0; /* 与内部元素的距离为0 */
+  width: 100%; /* 宽度根据元素内容调整 */
+}
+.icon-grid li{
+  float:left; /* 向左漂移，将竖排变为横排 */
+  width: 33%;
+  text-align: center;
+}
+.icon-grid ons-icon{
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  font-size: 80px;
+}
