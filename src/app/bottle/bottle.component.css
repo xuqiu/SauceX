@@ -143,7 +143,7 @@ input::selection {
   z-index: 5;
   width: 20%;
   height: 100%;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.4);
   transition: all 1s ease;
 }
 .progress .inner .glare2 {
@@ -152,20 +152,27 @@ input::selection {
 }
 .green .progress .inner .percent,
 .red .progress .inner .percent,
-.orange .progress .inner .percent {
+.orange .progress .inner .percent,
+.label{
   position: absolute;
-  top: 0;
+
   left: 0;
   width: 100%;
   height: 100%;
   font-weight: bold;
   text-align: center;
   z-index: 6;
-  line-height: 40vw;
+
   font-size: 8vw;
   transition: all 1s ease;
 }
-.green .progress .inner .percent {
+.percent{
+  top: 60%;
+}
+.label{
+  top: 30%;
+}
+.green .progress .inner .percent{
   color: #03c603;
   text-shadow: 0 0 10px #029502;
 }
@@ -178,7 +185,7 @@ input::selection {
   margin-top: 15px;
 }
 .red .progress {
-  border: 5px solid #ed3b3b;
+  border: 2px solid #ed3b3b;
 }
 .red .progress {
   box-shadow: 0 0 20px #7a0b0b;
@@ -189,7 +196,7 @@ input::selection {
   margin-top: 15px;
 }
 .orange .progress {
-  border: 5px solid #f07c3e;
+  border: 2px solid #f07c3e;
 }
 .orange .progress {
   box-shadow: 0 0 20px #7e320a;
