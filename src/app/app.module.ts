@@ -13,6 +13,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { ConfigComponent } from './config/config.component';
 import { SettingsComponent } from './settings/settings.component';
 import { BottleComponent } from './bottle/bottle.component';
+import { ChartComponent } from './chart/chart.component';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { BottleComponent } from './bottle/bottle.component';
     StatisticsComponent,
     ConfigComponent,
     SettingsComponent,
-    BottleComponent
+    BottleComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
     OnsenModule,
     AppRoutingModule,
+    NgxEchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

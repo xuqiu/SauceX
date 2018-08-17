@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./config.component.css']
 })
 export class ConfigComponent implements OnInit {
-
+  now = new Date();
   constructor() { }
 
   ngOnInit() {

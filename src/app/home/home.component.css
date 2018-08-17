@@ -10,6 +10,12 @@
   -moz-background-size:100% 100%;
   background-size:100% 100%;
 }
+.main-page{
+  background-color: rgba(255,255,255,0.4);
+}
+ons-page.page--material__background.page__background{
+  background-color: rgba(255,255,255,0);
+}
 .bottle-grid{
 
   margin: 0; /* 与外界元素的距离为0 */

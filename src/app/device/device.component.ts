@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./device.component.css']
 })
 export class DeviceComponent implements OnInit {
-
+  now = new Date();
   constructor() { }
 
   ngOnInit() {
